@@ -8,7 +8,7 @@ public class Hitung0088{
        int Dollar;
        double Rupiah;
        Scanner in = new Scanner(System.in);
-       System.out.print("Mil : ");
+       System.out.print("Dollar : ");
        Dollar = in.nextInt();
        Rupiah = Dollar * 15094.80;
        System.out.println("Hasil "+Dollar+" dollar = "+Rupiah+" Rupiah");
